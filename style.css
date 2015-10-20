@@ -99,6 +99,7 @@ body{
 }
 #ocean a:hover{
   color:#ADD8E6;
+  background-image: none;
 }
 #githubIcon{
   padding-top: 1px;
@@ -118,6 +119,13 @@ body{
 }
 #resume{
   padding-left: 30px;
+}
+#resume span{
+  margin-left: -100px;
+  font-family: 'Bad Script', cursive;
+  color: #FFF;
+  font-size: 4vw;
+  display:none;
 }
 #lastName span, #firstName span{
   font-family: 'Bad Script', cursive;
