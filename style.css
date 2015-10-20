@@ -5,7 +5,7 @@ body{
   position: fixed;
   display:none;
   z-index: 12;
-  height:500px;
+  height:400px;
   margin-top: 300px;
   margin-left: 70%;
 }
@@ -43,7 +43,7 @@ body{
   position: fixed;
   display:none;
   z-index: 10;
-  height:500px;
+  height:400px;
   margin-top: 300px;
   margin-left: 70%;
 }
@@ -60,7 +60,7 @@ body{
   position: fixed;
   display:none;
   z-index: 8;
-  height:500px;
+  height:400px;
   margin-top: 300px;
   margin-left: 70%;
 }
@@ -76,7 +76,7 @@ body{
 #fishRider{
   position: fixed;
   z-index: 6;
-  height:500px;
+  height:400px;
   margin-top: 300px;
   margin-left: 70%;
 }
@@ -91,7 +91,7 @@ body{
 }
 #ocean a{
   color:#FFF;
-  font-size: 1vw;
+  font-size: 1.5vw;
   background-image: url("bubble.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -147,12 +147,71 @@ body{
   background-repeat: no-repeat;
 }
 #firstName{
-  margin-top: 2vw;
-  margin-left: 18vw;
+  margin-top: 10vw;
+  margin-left: 12vw;
 
 }
 #lastName{
   margin-top: -10vw;
-  margin-left: 38vw;
+  margin-left: 32vw;
+
+}
+
+@media(min-width: 1000px){
+  #spaceship{
+    height:450px;
+  } 
+  #hotAirBalloon{
+    height:450px;
+  }
+  #balloons{
+      height:450px;
+    }
+  #fishRider{
+    height:450px;
+  } 
+  #linkedinIcon{
+    padding-top: 70px;
+  } 
+  #firstName{
+  margin-top: 20vw;
+  }
+}  
+
+
+@media(min-width: 1300px){
+  #spaceship{
+    height:500px;
+  } 
+  #hotAirBalloon{
+    height:500px;
+  }
+  #balloons{
+      height:500px;
+    }
+  #fishRider{
+    height:500px;
+  }  
+  #ocean a{
+    font-size: 1vw;
+  }
+  #firstName{
+    margin-top: 10vw;
+    margin-left: 18vw;
+
+  }
+  #lastName{
+    margin-top: -10vw;
+    margin-left: 38vw;
+
+  }
+
+}
+
+@media(min-width: 1500px){
+  #firstName{
+    margin-top: 2vw;
+
+  }
 
 }
