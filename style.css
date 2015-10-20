@@ -89,43 +89,62 @@ body{
   position: relative;
   z-index: 5;
 }
-#ocean ul{
-  padding-left: 8%;
-
-}
-#ocean li{
-  list-style-type: none;
-  display: inline;
-  text-decoration: none;
-}
 #ocean a{
   color:#FFF;
   font-size: 1.5vw;
+  background-image: url("bubble.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 60px 30px 20px 30px;
 }
-
 #ocean a:hover{
   color:#ADD8E6;
+}
+#githubIcon{
+  padding-top: 1px;
+  padding-left: 350px;
+}
+#linkedinIcon{
+  padding-top: 40px;
+  padding-left: 550px;
+}
+#twitterIcon{
+  padding-top: 1px;
+  padding-left: 20px;
+}
+#emailIcon{
+  padding-top: 1px;
+  padding-left: 125px;
+}
+#resume{
+  padding-left: 30px;
 }
 #lastName span, #firstName span{
   font-family: 'Bad Script', cursive;
   color: #FFF;
   font-size: 8vw;
-  border: 3px solid #FFF;
+  border: 0px solid #FFF;
   border-radius: 50%;
 }
 #firstName span{
+  background-image: url("bubble.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   padding: 60px 10px 1px 50px;
 }
 #lastName span{
   padding: 0 50px 50px 10px;
+  background-image: url("bubble.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 #firstName{
-  margin-top: 30vw;
-  margin-left: 9vw;
+  margin-top: 10vw;
+  margin-left: 12vw;
 
 }
 #lastName{
-  margin-top: -11vw;
-  margin-left: 30vw;
+  margin-top: -10vw;
+  margin-left: 32vw;
 
 }
