@@ -1,0 +1,131 @@
+body{
+  margin:0px;
+}
+#spaceship{
+  position: fixed;
+  display:none;
+  z-index: 12;
+  height:300px;
+  margin-top: 300px;
+  margin-left: 70%;
+}
+#space{
+  background-image: url("space.png");
+  height:2000px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+  position: relative;
+  z-index: 11;
+}
+#projects img{
+  height: 300px;
+  width: 300px;
+}
+#projRowOne li{
+  display: inline-block;
+  padding: 5%;
+}
+#projRowTwo li{
+  display: inline-block;
+  padding: 5%;
+}
+#space h1{
+  font-family: 'Bad Script', cursive;
+  color: #FFF;
+  font-size: 90px;
+  margin:0px;
+  padding-top: 850px;
+  padding-left: 8%;
+}
+
+#hotAirBalloon{
+  position: fixed;
+  display:none;
+  z-index: 10;
+  height:300px;
+  margin-top: 300px;
+  margin-left: 70%;
+}
+#mountains{
+  background-image: url("mountains.png");
+  height:900px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: gray;
+  position: relative;
+  z-index: 9;
+}
+#balloons{
+  position: fixed;
+  display:none;
+  z-index: 8;
+  height:300px;
+  margin-top: 300px;
+  margin-left: 70%;
+}
+#forest{
+  background-image: url("forest.png");
+  height:900px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: lightgreen;
+  position: relative;
+  z-index: 7;
+}
+#fishRider{
+  position: fixed;
+  z-index: 6;
+  height:300px;
+  margin-top: 300px;
+  margin-left: 70%;
+}
+#ocean{
+  background-image: url("jellies.png");
+  background-color: lightblue;
+  height:900px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 5;
+}
+#ocean ul{
+  padding-left: 8%;
+
+}
+#ocean li{
+  list-style-type: none;
+  display: inline;
+  text-decoration: none;
+}
+#ocean a{
+  color:#FFF;
+  font-size: 1.5vw;
+}
+
+#ocean a:hover{
+  color:#ADD8E6;
+}
+#lastName span, #firstName span{
+  font-family: 'Bad Script', cursive;
+  color: #FFF;
+  font-size: 8vw;
+  border: 3px solid #FFF;
+  border-radius: 50%;
+}
+#firstName span{
+  padding: 60px 10px 1px 50px;
+}
+#lastName span{
+  padding: 0 50px 50px 10px;
+}
+#firstName{
+  margin-top: 30vw;
+  margin-left: 9vw;
+
+}
+#lastName{
+  margin-top: -11vw;
+  margin-left: 30vw;
+
+}
