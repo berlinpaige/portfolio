@@ -30,20 +30,6 @@ body{
   margin: 30px;
 }
 
-#projOne{
-
-}
-#projTwo{
-
-}
-#projThree{
-
-}
-#projFour{
-
- 
-}
-
 #space h1{
   font-family: 'Bad Script', cursive;
   color: #FFF;
@@ -107,7 +93,7 @@ body{
   color:#FFF;
   font-size: 3vw;
   background-image: url("bubble.png");
-  background-size: 100% 0%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 60px 30px 20px 30px;
 }
