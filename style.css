@@ -122,12 +122,18 @@ body{
   padding-top: 90px;
   padding-left: 30px;
 }
-#resume span{
-  margin-left: -100px;
+#resume h2{
+  margin-top: -45px;
   font-family: 'Bad Script', cursive;
   color: #FFF;
-  font-size: 4vw;
   display:none;
+}
+
+#resume a:hover +h2{
+  display: block;
+}
+#resume h2:hover{
+  display:block;
 }
 #lastName span, #firstName span{
   font-family: 'Bad Script', cursive;
