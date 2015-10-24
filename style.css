@@ -92,7 +92,7 @@ body{
 }
 #ocean a{
   color:#FFF;
-  font-size: 1.5vw;
+  font-size: 3vw;
   background-image: url("bubble.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -104,10 +104,10 @@ body{
 }
 #githubIcon{
   padding-top: 1px;
-  padding-left: 300px;
+  padding-left: 240px;
 }
 #linkedinIcon{
-  padding-top: 100px;
+  padding-top: 35px;
   padding-left: 200px;
 }
 #twitterIcon{
@@ -115,26 +115,18 @@ body{
   padding-left: 20px;
 }
 #emailIcon{
-  padding-top: 55px;
+  padding-top: 10px;
   padding-left: 125px;
 }
 #resume{
-  padding-top: 90px;
   padding-left: 30px;
 }
-/*#resume h2{
-  margin-top: -45px;
+#resume h2{
   font-family: 'Bad Script', cursive;
   color: #FFF;
-  display:none;
-}*/
-
-/*#resume a:hover +h2{
-  display: block;
+  
 }
-#resume h2:hover{
-  display:block;
-}*/
+
 #lastName span, #firstName span{
   font-family: 'Bad Script', cursive;
   color: #FFF;
@@ -182,6 +174,7 @@ body{
   }
   #githubIcon{
     padding-top: 20px;
+    padding-left: 300px;
   }
 
 
@@ -209,8 +202,11 @@ body{
     margin-left: 9vw;
 
   }
+  #ocean a{
+  font-size: 1.5vw;
+}
   #emailIcon{
-  padding-top: 40px;
+  padding-top: 10px;
 }
   #lastName{
     margin-top: 0vw;
@@ -242,7 +238,7 @@ body{
     padding-left: 60%;
   } 
   #linkedinIcon{
-    padding-top: 70px;
+    padding-top: 40px;
     padding-left: 550px;
   }
   #lastName span, #firstName span{
@@ -261,11 +257,20 @@ body{
   #lastName span, #firstName span{
     font-size: 8vw;
   }
+  #emailIcon{
+    padding-top: 0px;
+  }
   #firstName{
-    margin-top: 18vw;
+    margin-top: 11vw;
   }
   #lastName{
     margin-top: -20px;
+  }
+  #resume h2{
+    display:none;
+  }
+  #resume a:hover +h2{
+  display: block;
   }
 
 }
@@ -289,6 +294,12 @@ body{
   #fishRider{
     height:425px;
   } 
+  #emailIcon{
+    padding-top: 40px;
+  }
+  #firstName{
+    margin-top: 9vw;
+  }
   #lastName{
   margin-top: -5vw;
   margin-left: 30vw;
@@ -313,7 +324,6 @@ body{
     font-size: 1vw;
   }
   #firstName{
-    margin-top: 10vw;
     margin-left: 18vw;
 
   }
@@ -321,6 +331,9 @@ body{
     margin-top: -10vw;
     margin-left: 38vw;
 
+  }
+  #resume{
+    padding-top: 90px;
   }
 
 }
