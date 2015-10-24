@@ -22,6 +22,25 @@ body{
 #projects{
   padding-top: 400px;
 }
+#projects h2{
+  padding: 20px 20px 0px 20px;
+}
+#projects a{
+  font-family: 'Delius', cursive;
+  color: #FFF;
+  font-size: 25px;
+  text-decoration: none;
+  border-bottom: 4px solid #663096;
+  line-height: 45px;
+}
+#projects h3{
+  font-family: 'Delius', cursive;
+  letter-spacing: 2px;
+  color: #FFF;
+  font-size: 20px;
+  text-align: left;
+  padding: 10px 20px 0px 20px;
+}
 #projOne, #projTwo, #projThree, #projFour{
   height: 300px;
   width: 80%;
