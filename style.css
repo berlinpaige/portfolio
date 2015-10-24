@@ -5,9 +5,9 @@ body{
   position: fixed;
   display:none;
   z-index: 12;
-  height:400px;
+  height:300px;
   margin-top: 300px;
-  margin-left: 70%;
+  padding-left: 59%;
 }
 #space{
   background-image: url("space.png");
@@ -43,9 +43,9 @@ body{
   position: fixed;
   display:none;
   z-index: 10;
-  height:400px;
+  height:300px;
   margin-top: 300px;
-  margin-left: 70%;
+  padding-left: 59%;
 }
 #mountains{
   background-image: url("mountains.png");
@@ -60,9 +60,9 @@ body{
   position: fixed;
   display:none;
   z-index: 8;
-  height:400px;
+  height:300px;
   margin-top: 300px;
-  margin-left: 70%;
+  padding-left: 59%;
 }
 #forest{
   background-image: url("forest.png");
@@ -75,10 +75,11 @@ body{
 }
 #fishRider{
   position: fixed;
+  display:none;
   z-index: 6;
-  height:380px;
+  height:300px;
   margin-top: 300px;
-  margin-left: 70%;
+  padding-left: 49%;
 }
 #ocean{
   background-image: url("jellies.png");
@@ -103,21 +104,22 @@ body{
 }
 #githubIcon{
   padding-top: 1px;
-  padding-left: 350px;
+  padding-left: 300px;
 }
 #linkedinIcon{
-  padding-top: 40px;
-  padding-left: 550px;
+  padding-top: 100px;
+  padding-left: 200px;
 }
 #twitterIcon{
   padding-top: 1px;
   padding-left: 20px;
 }
 #emailIcon{
-  padding-top: 1px;
+  padding-top: 55px;
   padding-left: 125px;
 }
 #resume{
+  padding-top: 90px;
   padding-left: 30px;
 }
 #resume span{
@@ -147,53 +149,101 @@ body{
   background-repeat: no-repeat;
 }
 #firstName{
-  margin-top: 10vw;
+  margin-top: 30vw;
   margin-left: 12vw;
 
 }
 #lastName{
-  margin-top: -10vw;
   margin-left: 32vw;
 
 }
-@media(min-width: 530px){
+@media(min-width: 470px){
   #spaceship{
-    margin-left: 50%;
+    padding-left: 50%;
   } 
   #hotAirBalloon{
-    margin-left: 50%;
+    padding-left: 50%;
   }
   #balloons{
-      margin-left: 50%;
+    padding-left: 50%;
     }
   #fishRider{
-    margin-left: 50%;
+    padding-left: 60%;
   } 
+  #firstName{
+    margin-top: 18vw;
+
+  }
+  #githubIcon{
+    padding-top: 20px;
+  }
+
 
 }
 
-@media(min-width: 700px){
+@media(min-width: 530px){
   #spaceship{
-    margin-left: 60%;
+    height: 400px;
+    padding-left: 50%;
   } 
   #hotAirBalloon{
-    margin-left: 60%;
+    height: 400px;
+    padding-left: 50%;
   }
   #balloons{
-      margin-left: 60%;
+    height: 400px;
+    padding-left: 50%;
     }
   #fishRider{
-    margin-left: 60%;
+    height: 400px;
+    padding-left: 50%;
+  } 
+  #firstName{
+    margin-top: 17vw;
+    margin-left: 9vw;
+
+  }
+  #emailIcon{
+  padding-top: 40px;
+}
+  #lastName{
+    margin-top: 0vw;
+    margin-left: 36vw;
+
+  }
+  #linkedinIcon{
+  padding-top: 50px;
+  padding-left: 250px;
+}
+#resume{
+  padding-top: 0px;
+  padding-left: 30px;
+}
+
+}
+
+@media(min-width: 650px){
+  #spaceship{
+    padding-left: 60%;
+  } 
+  #hotAirBalloon{
+    padding-left: 60%;
+  }
+  #balloons{
+      padding-left: 60%;
+    }
+  #fishRider{
+    padding-left: 60%;
   } 
   #linkedinIcon{
     padding-top: 70px;
     padding-left: 550px;
   }
   #lastName span, #firstName span{
-    font-size: 8vw;
+    font-size: 15vw;
   }
   #firstName{
-    margin-top: 30vw;
+    margin-top: 15vw;
   }
   #lastName{
     margin-left: 35vw;
@@ -201,7 +251,20 @@ body{
 
 }
 
-@media(min-width: 1000px){
+@media(min-width: 730px){
+  #lastName span, #firstName span{
+    font-size: 8vw;
+  }
+  #firstName{
+    margin-top: 18vw;
+  }
+  #lastName{
+    margin-top: -20px;
+  }
+
+}
+
+@media(min-width: 900px){
   #spaceship{
     height:450px;
   } 
@@ -211,16 +274,23 @@ body{
   #balloons{
       height:450px;
     }
+  #linkedinIcon{
+    padding-top: 50px;
+  }
+  #githubIcon{
+    padding-top: 0px;
+  }
   #fishRider{
     height:425px;
   } 
-  #firstName{
-  margin-top: 20vw;
+  #lastName{
+  margin-top: -5vw;
+  margin-left: 30vw;
   }
 }  
 
 
-@media(min-width: 1150px){
+@media(min-width: 1100px){
   #spaceship{
     height:400px;
   } 
