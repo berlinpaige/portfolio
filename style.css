@@ -76,7 +76,7 @@ body{
 #fishRider{
   position: fixed;
   z-index: 6;
-  height:400px;
+  height:380px;
   margin-top: 300px;
   margin-left: 70%;
 }
@@ -130,7 +130,7 @@ body{
 #lastName span, #firstName span{
   font-family: 'Bad Script', cursive;
   color: #FFF;
-  font-size: 8vw;
+  font-size: 18vw;
   border: 0px solid #FFF;
   border-radius: 50%;
 }
@@ -156,6 +156,50 @@ body{
   margin-left: 32vw;
 
 }
+@media(min-width: 530px){
+  #spaceship{
+    margin-left: 50%;
+  } 
+  #hotAirBalloon{
+    margin-left: 50%;
+  }
+  #balloons{
+      margin-left: 50%;
+    }
+  #fishRider{
+    margin-left: 50%;
+  } 
+
+}
+
+@media(min-width: 700px){
+  #spaceship{
+    margin-left: 60%;
+  } 
+  #hotAirBalloon{
+    margin-left: 60%;
+  }
+  #balloons{
+      margin-left: 60%;
+    }
+  #fishRider{
+    margin-left: 60%;
+  } 
+  #linkedinIcon{
+    padding-top: 70px;
+    padding-left: 550px;
+  }
+  #lastName span, #firstName span{
+    font-size: 8vw;
+  }
+  #firstName{
+    margin-top: 30vw;
+  }
+  #lastName{
+    margin-left: 35vw;
+  }
+
+}
 
 @media(min-width: 1000px){
   #spaceship{
@@ -168,10 +212,7 @@ body{
       height:450px;
     }
   #fishRider{
-    height:450px;
-  } 
-  #linkedinIcon{
-    padding-top: 70px;
+    height:425px;
   } 
   #firstName{
   margin-top: 20vw;
@@ -181,16 +222,16 @@ body{
 
 @media(min-width: 1150px){
   #spaceship{
-    height:500px;
+    height:400px;
   } 
   #hotAirBalloon{
-    height:500px;
+    height:400px;
   }
   #balloons{
-      height:500px;
+      height:400px;
     }
   #fishRider{
-    height:500px;
+    height:400px;
   }  
   #ocean a{
     font-size: 1vw;
