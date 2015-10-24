@@ -1,12 +1,18 @@
 body{
   margin:0px;
+  background-color: #000;
+}
+#wrapper{
+  min-width: 300px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 #spaceship{
   position: fixed;
   display:none;
   z-index: 12;
   height:300px;
-  margin-top: 300px;
+  padding-top: 100px;
   padding-left: 49%;
 }
 #space{
@@ -62,8 +68,8 @@ body{
   display:none;
   z-index: 10;
   height:300px;
-  margin-top: 300px;
-  padding-left: 59%;
+  padding-top: 100px;
+  padding-left: 49%;
 }
 #mountains{
   background-image: url("mountains.png");
@@ -79,8 +85,8 @@ body{
   display:none;
   z-index: 8;
   height:300px;
-  margin-top: 300px;
-  padding-left: 59%;
+  padding-top: 100px;
+  padding-left: 49%;
 }
 #forest{
   background-image: url("forest.png");
@@ -96,7 +102,7 @@ body{
   display:none;
   z-index: 6;
   height:300px;
-  margin-top: 300px;
+  padding-top: 100px;
   padding-left: 49%;
 }
 #ocean{
@@ -122,7 +128,7 @@ body{
 }
 #githubIcon{
   padding-top: 1px;
-  padding-left: 240px;
+  padding-left: 200px;
 }
 #linkedinIcon{
   padding-top: 35px;
@@ -290,18 +296,27 @@ body{
   #resume a:hover +h2{
   display: block;
   }
+  #projects a{
+    border-bottom: none;
+  }
+  #projOne a:hover, #projTwo a:hover, #projThree a:hover, #projFour a:hover{
+    border-bottom: 4px solid #663096;
+  }
 
 }
 
 @media(min-width: 900px){
   #spaceship{
     height:450px;
+    padding-left: 70%;
   } 
   #hotAirBalloon{
     height:450px;
+    padding-left: 70%;
   }
   #balloons{
       height:450px;
+      padding-left: 70%
     }
   #linkedinIcon{
     padding-top: 50px;
@@ -311,6 +326,7 @@ body{
   }
   #fishRider{
     height:425px;
+    padding-left: 70%;
   } 
   #emailIcon{
     padding-top: 40px;
@@ -351,7 +367,7 @@ body{
 
   }
   #resume{
-    padding-top: 90px;
+    padding-top: 20px;
   }
 
 }
@@ -360,6 +376,9 @@ body{
   #firstName{
     margin-top: 2vw;
 
+  }
+  #resume{
+    padding-top: 0px;
   }
 
 }
