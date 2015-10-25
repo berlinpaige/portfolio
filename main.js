@@ -18,14 +18,19 @@ $(document).ready(function(){
   $(document).scroll(function(){
     $('#navigation').css({display: 'none'}).fadeIn('slow');
   });
+  $('#navigation').click(function(){
+    $(".sendToBottom").removeClass("navigationDisplay");
+  });
   $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
     if (scroll > 500) {
         $(".scroll").addClass("navigationDisplay");
         $(".thanks").removeClass("navigationDisplay");
+        $(".sendToBottom").removeClass("navigationDisplay");
     }else{
         $(".thanks").addClass("navigationDisplay");
         $(".scroll").removeClass("navigationDisplay");
+        $(".sendToBottom").removeClass("navigationDisplay");
     }
   });
 })

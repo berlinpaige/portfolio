@@ -23,7 +23,7 @@ body{
   padding-right: 10px;
   font-size: 20px;
 }
-#navigation .scroll, .thanks{
+#navigation .scroll, .thanks, .sendToBottom{
   font-size: 40px;
   font-family: 'Bad Script', cursive;
   color: #FFF;
@@ -34,6 +34,9 @@ body{
   display:none;
 }
 .scroll{
+  display:none;
+}
+.sendToBottom{
   display:none;
 }
 .navigationDisplay{
@@ -63,13 +66,13 @@ body{
   z-index: 19;
 }
 
-#projects{
-  padding-top: 400px;
+#projectPortfolio{
+  padding-top: 150px;
 }
-#projects h2{
+#projectPortfolio h2{
   padding: 20px 20px 0px 20px;
 }
-#projects a{
+#projectPortfolio a{
   font-family: 'Delius', cursive;
   color: #FFF;
   font-size: 25px;
@@ -77,7 +80,13 @@ body{
   border-bottom: 4px solid #663096;
   line-height: 45px;
 }
-#projects h3{
+#projectPortfolio .githubLink{
+  text-decoration: none;
+  padding: 20px;
+  border-bottom: none;
+  font-size: 30px;
+}
+#projectPortfolio h3{
   font-family: 'Delius', cursive;
   letter-spacing: 2px;
   color: #FFF;
@@ -86,7 +95,7 @@ body{
   padding: 10px 20px 0px 20px;
 }
 #projOne, #projTwo, #projThree, #projFour{
-  height: 300px;
+  height: 400px;
   width: 80%;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
@@ -286,6 +295,12 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   #empty{
     height: 420px;
   }
+  #projOne, #projTwo, #projThree, #projFour{
+  height: 300px;
+}
+#projectPortfolio{
+  padding-top: 400px;
+}
 #forest ul{
   font-size: 40px;
 }
@@ -454,7 +469,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   #resume a:hover +h2{
   display: block;
   }
-  #projects a{
+  #projectPortfolio a{
     border-bottom: none;
   }
   #projOne a:hover, #projTwo a:hover, #projThree a:hover, #projFour a:hover{
