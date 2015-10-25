@@ -23,13 +23,21 @@ body{
   padding-right: 10px;
   font-size: 20px;
 }
-#navigation .scroll{
+#navigation .scroll, .thanks{
   font-size: 40px;
   font-family: 'Bad Script', cursive;
   color: #FFF;
   padding-left: 50px;
   padding-right: 50px;
-  display:block;
+}
+.thanks{
+  display:none;
+}
+.scroll{
+  display:none;
+}
+.navigationDisplay{
+  display: block;
 }
 #spaceship{
   position: fixed;
@@ -382,7 +390,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 @media(min-width: 650px){
-  #navigation .scroll{
+  .navigationDisplay{
     display: inline;
   }
   #spaceship{

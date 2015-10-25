@@ -15,4 +15,17 @@ $(document).ready(function(){
   $(document).scroll(function() {
     $fishRider.css({display: $(this).scrollTop()>4100 ? "none":"block"});
   });
+  $(document).scroll(function(){
+    $('#navigation').css({display: 'none'}).fadeIn('slow');
+  });
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    if (scroll > 500) {
+        $(".scroll").addClass("navigationDisplay");
+        $(".thanks").removeClass("navigationDisplay");
+    }else{
+        $(".thanks").addClass("navigationDisplay");
+        $(".scroll").removeClass("navigationDisplay");
+    }
+  });
 })
