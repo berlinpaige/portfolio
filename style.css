@@ -1,6 +1,7 @@
 body{
   margin:0px;
   background-color: #000;
+  font-family: "Comic Sans MS", cursive, sans-serif
 }
 #wrapper{
   min-width: 300px;
@@ -97,6 +98,65 @@ body{
   position: relative;
   z-index: 7;
 }
+#empty{
+ height: 500px;
+}
+#forest ul{
+  margin: 0;
+  list-style: none;
+  font-family: 'Delius', cursive;
+  color: #FFF;
+  font-size: 30px;
+}
+#forest li{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url("tree.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-right: 100px;
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+
+}
+#forest .skillOne{
+  margin-left: -300px;
+  margin-bottom: -14px;
+}
+#forest .skillTwo{
+  margin-left: -200px;
+  margin-bottom: -130px;
+}
+#forest .skillThree{
+  margin-right: -130px;
+  margin-left: -200px;
+  margin-bottom: 69px;
+}
+#forest .skillFour{
+  margin-right: -30px;
+  margin-left: 20px;
+  margin-bottom: -145px;
+}
+#forest .skillFive{
+  margin-right: -150px;
+  margin-left: 35px;
+}
+
+
 #fishRider{
   position: fixed;
   display:none;
@@ -118,8 +178,9 @@ body{
   color:#FFF;
   font-size: 3vw;
   background-image: url("bubble.png");
-  background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100% 100%;
   padding: 60px 30px 20px 30px;
 }
 #ocean a:hover{
@@ -179,6 +240,26 @@ body{
   margin-left: 32vw;
 
 }
+
+@media(min-width: 400px){
+  #empty{
+    height: 420px;
+  }
+#forest ul{
+  font-size: 40px;
+}
+#forest .skillOne{
+  margin-left: -350px;
+  margin-bottom: 0px;
+}
+#forest .skillThree{
+  margin-bottom: 50px;
+}
+#forest .skillFour{
+  margin-bottom: -130px;
+}
+}
+
 @media(min-width: 470px){
   #spaceship{
     padding-left: 50%;
@@ -189,6 +270,9 @@ body{
   #balloons{
     padding-left: 50%;
     }
+  #empty{
+    height: 380px;
+  }
   #fishRider{
     padding-left: 60%;
   } 
@@ -217,6 +301,33 @@ body{
     height: 400px;
     padding-left: 50%;
     }
+  #empty{
+    height: 360px;
+  }
+  #forest .skillOne{
+    margin-left: -200px;
+    margin-bottom: -0px;
+    margin-right: 200px;
+  }
+  #forest .skillTwo{
+    margin-left: -180px;
+    margin-bottom: -80px;
+    margin-right: 100px;
+  }
+  #forest .skillThree{
+    margin-right: 10px;
+    margin-left: -80px;
+    margin-bottom: -100px;
+  }
+  #forest .skillFour{
+    margin-right: -30px;
+    margin-left: 70px;
+    margin-bottom: -170px;
+  }
+  #forest .skillFive{
+    margin-right: -150px;
+    margin-left: 100px;
+  }
   #fishRider{
     height: 400px;
     padding-left: 50%;
@@ -278,6 +389,7 @@ body{
 }
 
 @media(min-width: 730px){
+
   #lastName span, #firstName span{
     font-size: 8vw;
   }
@@ -301,6 +413,33 @@ body{
   }
   #projOne a:hover, #projTwo a:hover, #projThree a:hover, #projFour a:hover{
     border-bottom: 4px solid #663096;
+  }
+  #empty{
+    height: 300px;
+  }
+  #forest .skillOne{
+    margin-left: -200px;
+    margin-bottom: -70px;
+    margin-right: 300px;
+  }
+  #forest .skillTwo{
+    margin-left: 0px;
+    margin-bottom: -80px;
+    margin-right: 150px;
+  }
+  #forest .skillThree{
+    margin-right: 10px;
+    margin-left: 60px;
+    margin-bottom: -100px;
+  }
+  #forest .skillFour{
+    margin-right: 200px;
+    margin-left: -100px;
+    margin-bottom: -180px;
+  }
+  #forest .skillFive{
+    margin-right: -90px;
+    margin-left: 90px;
   }
 
 }
@@ -340,6 +479,36 @@ body{
   }
 }  
 
+@media (min-width: 1000px){
+  #empty{
+    height: 300px;
+  }
+  #forest .skillOne{
+    margin-left: -200px;
+    margin-bottom: -50px;
+    margin-right: 400px;
+  }
+  #forest .skillTwo{
+    margin-left: 0px;
+    margin-bottom: -80px;
+    margin-right: 400px;
+  }
+  #forest .skillThree{
+    margin-right: 400px;
+    margin-left: 220px;
+    margin-bottom: -100px;
+  }
+  #forest .skillFour{
+    margin-right: 200px;
+    margin-left: 240px;
+    margin-bottom: -280px;
+  }
+  #forest .skillFive{
+    margin-right: -150px;
+    margin-left: 100px;
+  }
+}
+
 
 @media(min-width: 1100px){
   #spaceship{
@@ -371,11 +540,18 @@ body{
   }
 
 }
-
+@media (min-width: 1350px){
+  #empty{
+    height: 224px;
+  }
+}
 @media(min-width: 1500px){
   #firstName{
     margin-top: 2vw;
 
+  }
+  #empty{
+    height: 170px;
   }
   #resume{
     padding-top: 0px;
