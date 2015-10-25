@@ -8,6 +8,29 @@ body{
   max-width: 1600px;
   margin: 0 auto;
 }
+#navigation{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 20;
+  text-align: center;
+}
+#navigation a {
+  font-family: 'Bad Script', cursive;
+  color: #FFF;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+#navigation .scroll{
+  font-size: 40px;
+  font-family: 'Bad Script', cursive;
+  color: #FFF;
+  padding-left: 50px;
+  padding-right: 50px;
+  display:block;
+}
 #spaceship{
   position: fixed;
   display:none;
@@ -285,7 +308,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     padding-left: 300px;
   }
 
-
 }
 
 @media(min-width: 530px){
@@ -360,6 +382,9 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 @media(min-width: 650px){
+  #navigation .scroll{
+    display: inline;
+  }
   #spaceship{
     padding-left: 60%;
   } 
