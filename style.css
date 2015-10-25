@@ -47,7 +47,7 @@ body{
   padding-top: 100px;
   padding-left: 49%;
 }
-#space{
+#spaceBackground{
   background-image: url("space.png");
   height:2000px;
   background-size: 100% 100%;
@@ -55,6 +55,12 @@ body{
   background-color: black;
   position: relative;
   z-index: 11;
+  margin-top: -2000px;
+}
+#space{
+  height: 2000px;
+  position: relative;
+  z-index: 19;
 }
 
 #projects{
@@ -186,8 +192,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   margin-right: -150px;
   margin-left: 35px;
 }
-
-
 #fishRider{
   position: fixed;
   display:none;
@@ -196,7 +200,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   padding-top: 100px;
   padding-left: 49%;
 }
-#ocean{
+#oceanBackground{
   background-image: url("jellies.png");
   background-color: lightblue;
   height:900px;
@@ -204,6 +208,12 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   background-repeat: no-repeat;
   position: relative;
   z-index: 5;
+  margin-top: -900px;
+}
+#ocean{
+  height: 900px;
+  position: relative;
+  z-index: 8;
 }
 #ocean a{
   color:#FFF;
@@ -396,6 +406,9 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   #spaceship{
     padding-left: 60%;
   } 
+  #projOne, #projTwo, #projThree, #projFour{
+    width: 60%;
+  }
   #hotAirBalloon{
     padding-left: 60%;
   }
