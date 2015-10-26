@@ -42,6 +42,7 @@ body{
 .navigationDisplay{
   display: block;
 }
+
 #spaceship{
   position: fixed;
   display:none;
