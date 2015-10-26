@@ -102,10 +102,10 @@ body{
   margin: 30px;
 }
 
-#space h1{
+#space h1, #mountains h3, #ocean h1, #forest h1{
   font-family: 'Bad Script', cursive;
   color: #FFF;
-  font-size: 60px;
+  font-size: 48px;
   margin:0px;
   padding-left: 8%;
 }
@@ -137,7 +137,7 @@ body{
 }
 #goal1, #goal2, #goal3, #goal4, #goal5, #goal6, #goal7{
   background-image: url("cloud.png");
-  height:120px;
+  height:110px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-left: 40px;
@@ -165,7 +165,10 @@ body{
   z-index: 7;
 }
 #empty{
- height: 500px;
+ height: 400px;
+}
+#forest h1{
+  margin-top: 220px;
 }
 #forest ul{
   margin: 0;
@@ -313,13 +316,19 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 @media(min-width: 400px){
   #empty{
-    height: 420px;
+    height: 350px;
   }
   #projOne, #projTwo, #projThree, #projFour{
   height: 300px;
 }
 #projectPortfolio{
   padding-top: 400px;
+}
+#space h1, #mountains h3, #forest h1{
+  font-size: 60px;
+}
+#ocean h1{
+  font-size: 40px;
 }
 #goal1, #goal2, #goal3, #goal4, #goal5, #goal6, #goal7{
   height:100px;
@@ -341,6 +350,9 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 #forest .skillFour{
   margin-bottom: -130px;
 }
+#resume{
+  margin-top: -40px;
+}
 }
 
 @media(min-width: 470px){
@@ -360,13 +372,19 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 #goal6 h2{
   font-size: 17.5px;
 }
+#resume{
+  margin-top: -90px;
+}
 
 
   #balloons{
     padding-left: 50%;
     }
   #empty{
-    height: 380px;
+    height: 280px;
+  }
+  #forest h1{
+    margin-top: 250px;
   }
   #fishRider{
     padding-left: 60%;
@@ -395,7 +413,10 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     padding-left: 50%;
     }
   #empty{
-    height: 360px;
+    height: 280px;
+  }
+  #forest h1{
+    margin-top: 380px;
   }
   #forest .skillOne{
     margin-left: -200px;
@@ -446,6 +467,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   padding-left: 250px;
 }
 #resume{
+  margin-top: -95px;
   padding-top: 0px;
   padding-left: 30px;
 }
@@ -490,6 +512,12 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   #balloons{
       padding-left: 60%;
     }
+    #empty{
+      height: 250px;
+    }
+    #forest h1{
+      margin-top: 400px;
+    }
   #fishRider{
     padding-left: 60%;
   } 
@@ -505,6 +533,10 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   }
   #lastName{
     margin-left: 35vw;
+  }
+  #ocean h1{
+    font-size: 60px;
+    margin-top: -20px;
   }
 
 }
@@ -528,6 +560,9 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   }
   #resume a:hover +h2{
   display: block;
+  }
+  #resume a:hover  h1{
+    display: none;
   }
   #projectPortfolio a{
     border-bottom: none;
@@ -561,6 +596,9 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   #forest .skillFive{
     margin-right: -90px;
     margin-left: 90px;
+  }
+  #ocean h1{
+    margin-top: 200px;
   }
 
 }
@@ -597,6 +635,12 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
       height:450px;
       padding-left: 70%
     }
+    #empty{
+      height: 200px;
+    }
+    #forest h1{
+      margin-top: 450px;
+    }
   #linkedinIcon{
     padding-top: 50px;
   }
@@ -617,12 +661,19 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   margin-top: -5vw;
   margin-left: 30vw;
   }
+  #ocean h1{
+    margin-top: 100px;
+  }
 }  
 
 @media (min-width: 1000px){
   #empty{
     height: 300px;
   }
+    #forest h1{
+      margin-top: 500px;
+      padding-left: 20px;
+    }
   #forest .skillOne{
     margin-left: -200px;
     margin-bottom: -50px;
@@ -702,6 +753,13 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   #empty{
     height: 224px;
   }
+  #forest h1{
+    margin-top: 580px;
+  }
+  #ocean h1{
+    margin-left: 100px;
+    margin-top: -5px;
+  }
 }
 @media(min-width: 1500px){
   #firstName{
@@ -710,6 +768,9 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   }
   #empty{
     height: 170px;
+  }
+  #forest h1{
+    margin-top: 620px;
   }
   #resume{
     padding-top: 0px;
