@@ -42,7 +42,6 @@ body{
 .navigationDisplay{
   display: block;
 }
-
 #spaceship{
   position: fixed;
   display:none;
@@ -66,7 +65,6 @@ body{
   position: relative;
   z-index: 19;
 }
-
 #projectPortfolio{
   padding-top: 150px;
 }
@@ -102,7 +100,6 @@ body{
   border-radius: 5px;
   margin: 30px;
 }
-
 #space h1, #mountains h3, #ocean h1, #forest h1{
   font-family: 'Bad Script', cursive;
   color: #FFF;
@@ -110,7 +107,6 @@ body{
   margin:0px;
   padding-left: 8%;
 }
-
 #hotAirBalloon{
   position: fixed;
   display:none;
@@ -185,24 +181,12 @@ body{
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-right: 100px;
-
-/* Safari */
--webkit-transform: rotate(-90deg);
-
-/* Firefox */
--moz-transform: rotate(-90deg);
-
-/* IE */
--ms-transform: rotate(-90deg);
-
-/* Opera */
--o-transform: rotate(-90deg);
-
-/* Internet Explorer */
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
-
-}
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
 #forest .skillOne{
   margin-left: -300px;
   margin-bottom: -14px;
@@ -283,9 +267,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 #resume h2{
   font-family: 'Bad Script', cursive;
   color: #FFF;
-  
 }
-
 #lastName span, #firstName span{
   font-family: 'Bad Script', cursive;
   color: #FFF;
@@ -308,11 +290,9 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 #firstName{
   margin-top: 30vw;
   margin-left: 12vw;
-
 }
 #lastName{
   margin-left: 32vw;
-
 }
 
 @media(min-width: 400px){
@@ -320,40 +300,40 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     height: 350px;
   }
   #projOne, #projTwo, #projThree, #projFour{
-  height: 300px;
-}
-#projectPortfolio{
-  padding-top: 400px;
-}
-#space h1, #mountains h3, #forest h1{
-  font-size: 60px;
-}
-#ocean h1{
-  font-size: 40px;
-}
-#goal1, #goal2, #goal3, #goal4, #goal5, #goal6, #goal7{
-  height:100px;
-  background-repeat: no-repeat;
-  padding-left: 40px;
-  width: 250px;
-  padding-top: 10px;
-}
-#forest ul{
-  font-size: 40px;
-}
-#forest .skillOne{
-  margin-left: -350px;
-  margin-bottom: 0px;
-}
-#forest .skillThree{
-  margin-bottom: 50px;
-}
-#forest .skillFour{
-  margin-bottom: -130px;
-}
-#resume{
-  margin-top: -40px;
-}
+    height: 300px;
+  }
+  #projectPortfolio{
+    padding-top: 400px;
+  }
+  #space h1, #mountains h3, #forest h1{
+    font-size: 60px;
+  }
+  #ocean h1{
+    font-size: 40px;
+  }
+  #goal1, #goal2, #goal3, #goal4, #goal5, #goal6, #goal7{
+    height:100px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    width: 250px;
+    padding-top: 10px;
+  }
+  #forest ul{
+    font-size: 40px;
+  }
+  #forest .skillOne{
+    margin-left: -350px;
+    margin-bottom: 0px;
+  }
+  #forest .skillThree{
+    margin-bottom: 50px;
+  }
+  #forest .skillFour{
+    margin-bottom: -130px;
+  }
+  #resume{
+    margin-top: -40px;
+  }
 }
 
 @media(min-width: 470px){
@@ -363,24 +343,22 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   #hotAirBalloon{
     padding-left: 50%;
   }
-    #mountains h1, #mountains h2{
-  font-size: 20px;
-  padding: 5px 20px 0px 20px;
-}
-#goal4 h2, #goal7 h2{
-    padding: 5px 20px 0px 0px;
-}
-#goal6 h2{
-  font-size: 17.5px;
-}
-#resume{
-  margin-top: -90px;
-}
-
-
+  #mountains h1, #mountains h2{
+    font-size: 20px;
+    padding: 5px 20px 0px 20px;
+  }
+  #goal4 h2, #goal7 h2{
+      padding: 5px 20px 0px 0px;
+  }
+  #goal6 h2{
+    font-size: 17.5px;
+  }
+  #resume{
+    margin-top: -90px;
+  }
   #balloons{
     padding-left: 50%;
-    }
+  }
   #empty{
     height: 280px;
   }
@@ -392,13 +370,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   } 
   #firstName{
     margin-top: 18vw;
-
   }
   #githubIcon{
     padding-top: 20px;
     padding-left: 300px;
   }
-
 }
 
 @media(min-width: 530px){
@@ -409,10 +385,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   #hotAirBalloon{
     height: 400px;
     padding-left: 50%;
-  }  #balloons{
+  }  
+  #balloons{
     height: 400px;
     padding-left: 50%;
-    }
+  }
   #empty{
     height: 280px;
   }
@@ -450,29 +427,26 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   #firstName{
     margin-top: 17vw;
     margin-left: 9vw;
-
   }
   #ocean a{
-  font-size: 1.5vw;
-}
+    font-size: 1.5vw;
+  }
   #emailIcon{
-  padding-top: 10px;
-}
+    padding-top: 10px;
+  }
   #lastName{
     margin-top: 0vw;
     margin-left: 36vw;
-
   }
   #linkedinIcon{
-  padding-top: 50px;
-  padding-left: 250px;
-}
-#resume{
-  margin-top: -95px;
-  padding-top: 0px;
-  padding-left: 30px;
-}
-
+    padding-top: 50px;
+    padding-left: 250px;
+  }
+  #resume{
+    margin-top: -95px;
+    padding-top: 0px;
+    padding-left: 30px;
+  }
 }
 
 @media(min-width: 650px){
@@ -489,11 +463,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     padding-left: 60%;
   }
   #goal2, #goal3, #goal4, #goal5, #goal6, #goal7{
-  height:100px;
-  padding-left: 40px;
-  width: 300px;
-  padding-top: 10px;
-  margin-left: 100px;
+    height:100px;
+    padding-left: 40px;
+    width: 300px;
+    padding-top: 10px;
+    margin-left: 100px;
   }
   #goal3, #goal5, #goal7{
     margin-left: 30px;
@@ -508,17 +482,17 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     padding-left: 60px;
   }
   #goal6 h2{
-  font-size: 20px;
+   font-size: 20px;
   }
   #balloons{
-      padding-left: 60%;
-    }
-    #empty{
-      height: 250px;
-    }
-    #forest h1{
-      margin-top: 400px;
-    }
+    padding-left: 60%;
+  }
+  #empty{
+    height: 250px;
+  }
+  #forest h1{
+    margin-top: 400px;
+  }
   #fishRider{
     padding-left: 60%;
   } 
@@ -539,11 +513,9 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     font-size: 60px;
     margin-top: -20px;
   }
-
 }
 
 @media(min-width: 730px){
-
   #lastName span, #firstName span{
     font-size: 8vw;
   }
@@ -601,7 +573,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   #ocean h1{
     margin-top: 200px;
   }
-
 }
 
 @media(min-width: 900px){
@@ -631,17 +602,16 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   #goal7{
     margin-left: 350px;
   }
-
   #balloons{
-      height:450px;
-      padding-left: 70%
-    }
-    #empty{
-      height: 200px;
-    }
-    #forest h1{
-      margin-top: 450px;
-    }
+    height:450px;
+    padding-left: 70%
+  }
+  #empty{
+    height: 200px;
+  }
+  #forest h1{
+   margin-top: 450px;
+  }
   #linkedinIcon{
     padding-top: 50px;
   }
@@ -659,8 +629,8 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     margin-top: 9vw;
   }
   #lastName{
-  margin-top: -5vw;
-  margin-left: 30vw;
+    margin-top: -5vw;
+    margin-left: 30vw;
   }
   #ocean h1{
     margin-top: 100px;
@@ -671,10 +641,10 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   #empty{
     height: 300px;
   }
-    #forest h1{
-      margin-top: 500px;
-      padding-left: 20px;
-    }
+  #forest h1{
+    margin-top: 500px;
+    padding-left: 20px;
+  }
   #forest .skillOne{
     margin-left: -200px;
     margin-bottom: -50px;
@@ -710,8 +680,8 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     height:400px;
   }
   #balloons{
-      height:400px;
-    }
+    height:400px;
+  }
   #fishRider{
     height:400px;
   }  
@@ -720,18 +690,16 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   }
   #firstName{
     margin-left: 18vw;
-
   }
   #lastName{
     margin-top: -10vw;
     margin-left: 38vw;
-
   }
   #resume{
     padding-top: 20px;
   }
-
 }
+
 @media (min-width: 1350px){
   #goal2{
     margin-left: 150px;
@@ -762,10 +730,10 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     margin-top: -5px;
   }
 }
+
 @media(min-width: 1500px){
   #firstName{
     margin-top: 2vw;
-
   }
   #empty{
     height: 170px;
@@ -776,5 +744,4 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   #resume{
     padding-top: 0px;
   }
-
 }

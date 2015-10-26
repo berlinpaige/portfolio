@@ -24,13 +24,13 @@ $(document).ready(function(){
   $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
     if (scroll > 500) {
-        $(".scroll").addClass("navigationDisplay");
-        $(".thanks").removeClass("navigationDisplay");
-        $(".sendToBottom").removeClass("navigationDisplay");
+      $(".scroll").addClass("navigationDisplay");
+      $(".thanks").removeClass("navigationDisplay");
+      $(".sendToBottom").removeClass("navigationDisplay");
     }else{
-        $(".thanks").addClass("navigationDisplay");
-        $(".scroll").removeClass("navigationDisplay");
-        $(".sendToBottom").removeClass("navigationDisplay");
+      $(".thanks").addClass("navigationDisplay");
+      $(".scroll").removeClass("navigationDisplay");
+      $(".sendToBottom").removeClass("navigationDisplay");
     }
   });
 })
