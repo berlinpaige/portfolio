@@ -93,12 +93,15 @@ body{
   text-align: left;
   padding: 10px 20px 0px 20px;
 }
-#projOne, #projTwo, #projThree, #projFour{
-  height: 400px;
+#projOne, #projTwo, #projThree, #projFour, #projFive{
+  height: 400px;    
   width: 80%;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   margin: 30px;
+}
+#projFour{
+  display: none;
 }
 #space h1, #mountains h3, #ocean h1, #forest h1{
   font-family: 'Bad Script', cursive;
@@ -302,8 +305,11 @@ body{
   #projOne, #projTwo, #projThree, #projFour{
     height: 300px;
   }
+  #projFive{
+    height: 340px;
+  }
   #projectPortfolio{
-    padding-top: 400px;
+    padding-top: 200px;
   }
   #space h1, #mountains h3, #forest h1{
     font-size: 60px;
@@ -374,6 +380,12 @@ body{
   #githubIcon{
     padding-top: 20px;
     padding-left: 300px;
+  }
+  #projFour{
+    display: block;
+  }
+  #projFive{
+    height: 300px;
   }
 }
 
@@ -456,7 +468,7 @@ body{
   #spaceship{
     padding-left: 60%;
   } 
-  #projOne, #projTwo, #projThree, #projFour{
+  #projOne, #projTwo, #projThree, #projFour, #projFive{
     width: 60%;
   }
   #hotAirBalloon{
@@ -540,7 +552,7 @@ body{
   #projectPortfolio a{
     border-bottom: none;
   }
-  #projOne a:hover, #projTwo a:hover, #projThree a:hover, #projFour a:hover{
+  #projOne a:hover, #projTwo a:hover, #projThree a:hover, #projFour a:hover, #projFive a:hover{
     border-bottom: 4px solid #663096;
   }
   #empty{
